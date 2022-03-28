@@ -1,0 +1,45 @@
+.one {
+    border-radius: 10px 0px 0px 10px;
+}
+
+.two {
+    border-radius: 0px 10px 10px 0px;
+}
+
+.card {
+    height: 420px;
+    width: auto;
+    padding: 50px 50px 30px 50px;
+    color: var(--color-reto3-5);
+}
+
+.card-text h3 {
+    font-family: var(--font-family-reto3-2);
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.card-text p {
+    font-family: var(--font-family-reto3-1);
+    font-weight: 400;
+    font-size: 14px;
+    color: var(--color-reto3-4);
+}
+
+.card-footer button {
+    font-family: var(--font-family-reto3-2);
+    background-color: var(--color-reto3-5);
+    padding: 10px 30px 10px 30px;
+    border-radius: 50px;
+    border: 0;
+    margin-top: 40%;
+}
+
+@media (max-width: 600px) {
+    .one {
+        border-radius: 10px 10px 0px 0px;
+    }
+    .two {
+        border-radius: 0px 0px 10px 10px;
+    }
+}

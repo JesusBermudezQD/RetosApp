@@ -1,0 +1,58 @@
+.card {
+    background-color: white;
+    width: 240px;
+    height: 160px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px var(--color-reto6-6);
+}
+
+.header h4 {
+    color: var(--color-reto6-5);
+    font-weight: 600;
+    font-size: 17px;
+    margin: 0px;
+}
+
+.body {
+    margin-top: 0px;
+    padding-top: 0px;
+}
+
+.body p {
+    color: var(--color-reto6-6);
+    font-size: 12px;
+    font-weight: 200;
+    margin-bottom: 40px;
+}
+
+.footer {
+    display: grid;
+}
+
+.footer img {
+    height: 50px;
+    width: 50px;
+    justify-self: end;
+}
+
+.one {
+    border-top: 4px solid;
+    border-top-color: var(--color-reto6-1);
+}
+
+.two {
+    border-top: 4px solid;
+    border-top-color: var(--color-reto6-2);
+    margin-bottom: 20px;
+}
+
+.three {
+    border-top: 4px solid;
+    border-top-color: var(--color-reto6-3);
+}
+
+.four {
+    border-top: 4px solid;
+    border-top-color: var(--color-reto6-4);
+}

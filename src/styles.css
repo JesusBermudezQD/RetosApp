@@ -1,1 +1,55 @@
 /* You can add global styles to this file, and also import other style files */
+
+:root {
+    /* Colores y estilos reto 1 */
+    --color-1: hsl(225, 100%, 94%);
+    --color-2: hsl(245, 75%, 52%);
+    --color-3: hsl(225, 100%, 98%);
+    --color-4: hsl(224, 23%, 55%);
+    --color-5: hsl(223, 47%, 23%);
+    --font-size-1: 16px;
+    --font-family-1: 'Red Hat Display', sans-serif;
+    /* Colores y estilos reto 2 */
+    --color-reto2-1: hsl(233, 47%, 7%);
+    --color-reto2-2: hsl(244, 38%, 16%);
+    --color-reto2-3: hsl(277, 64%, 61%);
+    --color-reto2-4: hsl(0, 0%, 100%);
+    --color-reto2-5: hsla(0, 0%, 100%, 0.75);
+    --color-reto2-6: hsla(0, 0%, 100%, 0.6);
+    --font-family-reto2-1: 'Inter', sans-serif;
+    --font-family-reto2-2: 'Lexend Deca', sans-serif;
+    /* Colores y estilos reto 3 */
+    --color-reto3-1: hsl(31, 77%, 52%);
+    --color-reto3-2: hsl(184, 100%, 22%);
+    --color-reto3-3: hsl(179, 100%, 13%);
+    --color-reto3-4: hsla(0, 0%, 100%, 0.75);
+    --color-reto3-5: hsl(0, 0%, 95%);
+    --font-family-reto3-1: 'Lexend Deca', sans-serif;
+    --font-family-reto3-2: 'Big Shoulders Display', sans-serif;
+    /* Colores y estilos reto 4 */
+    --color-reto4-1: hsl(185, 75%, 39%);
+    --color-reto4-2: hsl(229, 23%, 23%);
+    --color-reto4-3: hsl(227, 10%, 46%);
+    --color-reto4-4: hsl(0, 0%, 59%);
+    --font-family-reto4-1: 'Kumbh Sans', sans-serif;
+    /* Colores y estilos reto 5 */
+    --color-reto5-1: hsl(217, 19%, 35%);
+    --color-reto5-2: hsl(214, 17%, 51%);
+    --color-reto5-3: hsl(212, 23%, 69%);
+    --color-reto5-4: hsl(210, 46%, 95%);
+    --font-family-reto5-1: 'Manrope', sans-serif;
+    /* Colores y estilos reto 6 */
+    --color-reto6-1: hsl(180, 62%, 55%);
+    --color-reto6-2: hsl(0, 78%, 62%);
+    --color-reto6-3: hsl(34, 97%, 64%);
+    --color-reto6-4: hsl(212, 86%, 64%);
+    --color-reto6-5: hsl(234, 12%, 34%);
+    --color-reto6-6: hsl(229, 6%, 66%);
+    --color-reto6-7: hsl(0, 0%, 98%);
+    --font-family-reto6-1: 'Poppins', sans-serif;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}

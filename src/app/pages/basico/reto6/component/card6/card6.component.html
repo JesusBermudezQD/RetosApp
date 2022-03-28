@@ -1,0 +1,12 @@
+<div class="card one" [ngClass]="{one: index === '0', two: index === '1',three: index === '2', four: index === '3'}">
+    <div class="header">
+        <h4>{{title}}</h4>
+    </div>
+    <div class="body">
+        <p>{{description}}</p>
+    </div>
+
+    <div class="footer">
+        <img [src]="icon" alt="">
+    </div>
+</div>

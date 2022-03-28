@@ -1,0 +1,12 @@
+<div class="card" [style.background]=" data.color" [ngClass]="{ one: index === 0, two: index === 2 }">
+    <div class="card-header">
+        <img [src]="data.icon" alt="" />
+    </div>
+    <div class="card-text">
+        <h3>{{ data.title | uppercase }}</h3>
+        <p>{{ data.text }}</p>
+    </div>
+    <div class="card-footer">
+        <button [style.color]="data.color">Learn More</button>
+    </div>
+</div>
